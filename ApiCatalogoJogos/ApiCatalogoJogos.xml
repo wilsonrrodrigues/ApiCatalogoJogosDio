@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ApiCatalogoJogos</name>
+    </assembly>
+    <members>
+        <member name="M:ApiCatalogoJogos.Controllers.V1.JogosController.Obter(System.Int32,System.Int32)">
+            Busca todos os jogos, por páginas com quantidades, pode retornar 200 = retorna lista de jogos ou 204 = não existe jogos
+        </member>
+        <member name="M:ApiCatalogoJogos.Controllers.V1.JogosController.Obter(System.Guid)">
+            Busca um jogo a partir do ID informado
+        </member>
+        <member name="M:ApiCatalogoJogos.Controllers.V1.JogosController.InserirJogo(ApiCatalogoJogos.InputModel.JogoInputModel)">
+            Adiciona um jogo novo, caso o mesmo já exista retorna mensagem 
+        </member>
+        <member name="M:ApiCatalogoJogos.Controllers.V1.JogosController.AtualizarJogo(System.Guid,ApiCatalogoJogos.InputModel.JogoInputModel)">
+            Atualiza todos os parametros do jogo 
+        </member>
+        <member name="M:ApiCatalogoJogos.Controllers.V1.JogosController.AtualizarJogo(System.Guid,System.Double)">
+            Atualiza apenas um parametro
+        </member>
+        <member name="M:ApiCatalogoJogos.Controllers.V1.JogosController.ApagarJogo(System.Guid)">
+            Deleta o jogo de acordo com o id informado
+        </member>
+    </members>
+</doc>
